@@ -5,6 +5,7 @@
 
 body {
   font-family: Roboto;
+  background-color: #f9faf8;
 }
 
 header {
@@ -69,4 +70,100 @@ header {
   border-radius: 10px;
   border: none;
   font-size: 1rem;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-section h1 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 4rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  padding: 2rem;
+}
+
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  border: #3882f6 3px solid;
+  border-radius: 10px;
+}
+
+.card p {
+  font-size: 18px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+}
+
+.quote-section h1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.signUp-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 2rem 10rem;
+  margin: 5rem;
+}
+
+.signUp-text {
+  content: flex;
+  flex-direction: column;
+}
+
+.signUp-button {
+  background-color: #3882f6;
+  margin-left: 10rem;
+  padding: 0.25rem 2rem;
+  color: #f9faf8;
+  border: #f9faf8 2px solid;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 1.5rem;
 }
